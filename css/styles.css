@@ -426,7 +426,7 @@ textarea:focus {
   fill: var(--accent-color);
 }
 
-.policy-field {
+.policy {
   margin: 0;
   margin-bottom: 30px;
   padding: 0;
@@ -499,7 +499,7 @@ textarea:focus {
 /* Features */
 .features-item,
 .works .title,
-.join-us {
+.footer-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -734,14 +734,14 @@ textarea:focus {
   margin-bottom: 20px;
 }
 
-.address p {
+.footer-address p {
   color: var(--white-color);
   font-style: normal;
   margin-top: 0;
   margin-bottom: 9px;
 }
 
-.address-contacts {
+.footer-contacts {
   display: block;
   color: var(--accent-secondary-color);
   font-style: normal;
@@ -750,23 +750,23 @@ textarea:focus {
   margin-bottom: 0;
 }
 
-.address-contacts.mail {
+.footer-contacts.mail {
   margin-bottom: 9px;
   margin-top: 0;
 }
 
-.join-us {
+.footer-title {
   display: block;
   color: var(--white-color);
   margin-bottom: 20px;
 }
 
-.footer-contacts {
+/*.footer-contacts {
   margin-top: 0px;
   margin-bottom: 0px;
   margin-right: 0px;
 }
-
+*/
 .footer-links {
   display: flex;
   justify-content: start;
@@ -774,7 +774,7 @@ textarea:focus {
 }
 
 .footer-info,
-.footer-join {
+.footer-join-us {
   box-sizing: border-box;
   width: 231px;
 }
@@ -803,7 +803,6 @@ textarea:focus {
 }
 
 .footer-sign-up {
-  /*box-sizing: border-box;*/
   margin-left: auto;
 }
 
