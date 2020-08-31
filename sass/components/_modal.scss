@@ -154,14 +154,6 @@ textarea:focus {
   fill: $accent-color;
 }
 
-.policy {
-  margin: 0;
-  margin-bottom: 30px;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
-
 .btn-submit-modal {
   margin: 0;
   padding-top: 10px;
@@ -216,6 +208,14 @@ textarea:focus {
   background-color: $accent-color;
   background-repeat: no-repeat;
   border-color: transparent;
+}
+
+.policy {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .policy-text {

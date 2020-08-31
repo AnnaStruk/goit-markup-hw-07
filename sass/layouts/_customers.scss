@@ -26,6 +26,7 @@
 
 .customers-link:hover,
 .customers-link:focus {
+  outline: 0;
   fill: $accent-color;
   border-color: $accent-color;
 }

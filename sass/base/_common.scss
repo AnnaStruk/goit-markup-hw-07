@@ -10,6 +10,10 @@
   overflow: hidden;
 }
 
+.non-visible {
+  display: none;
+}
+
 body {
   margin: 0;
   background-color: $white-color;
