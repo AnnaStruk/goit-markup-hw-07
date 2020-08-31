@@ -5,8 +5,12 @@
   margin-bottom: 0px;
 }
 
-.site-nav .item:not(:last-child) {
-  margin-right: 50px;
+.site-nav .item {
+  position: relative;
+
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .site-nav .link {
@@ -16,15 +20,12 @@
   color: $title-text-color;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.link:hover,
-.link:focus {
-  color: $accent-color;
-}
-
-.site-nav .item {
-  position: relative;
+  &:hover,
+  &:focus {
+    outline: 0;
+    color: $accent-color;
+  }
 }
 
 .site-nav .link.current {
@@ -53,18 +54,16 @@
 }
 
 .contacts .link {
+  margin-left: 30px;
   color: $primary-text-color;
   fill: $primary-text-color;
-}
 
-.contacts .link:hover,
-.contacts .link:focus {
-  color: $accent-color;
-  fill: $accent-color;
-}
-
-.header-contacts .link {
-  margin-left: 30px;
+  &:hover,
+  &:focus {
+    outline: 0;
+    color: $accent-color;
+    fill: $accent-color;
+  }
 }
 
 .site-nav .link,

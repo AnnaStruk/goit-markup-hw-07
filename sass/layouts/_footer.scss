@@ -10,16 +10,6 @@
   align-items: baseline;
 }
 
-.logo-studio {
-  color: $white-color;
-}
-
-.logo-footer {
-  display: block;
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-
 .footer-address p {
   color: $white-color;
   font-style: normal;
@@ -74,12 +64,12 @@
   border-radius: 50%;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer-social:hover,
-.footer-social:focus {
-  background-color: $accent-color;
-  outline: none;
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    outline: none;
+  }
 }
 
 .footer-sign-up {
@@ -100,17 +90,17 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover .submit-icon,
+  &:focus .submit-icon {
+    fill: $accent-color;
+  }
 }
 
 .submit-icon {
   margin-left: 10px;
   fill: $white-color;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.submit-button:hover .submit-icon,
-.submit-button:focus .submit-icon {
-  fill: $accent-color;
 }
 
 .footer-form {
