@@ -1,0 +1,138 @@
+/* Footer*/
+.page-footer {
+  background-color: $footer-bg-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer {
+  display: flex;
+  align-items: baseline;
+}
+
+.logo-studio {
+  color: $white-color;
+}
+
+.logo-footer {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.footer-address p {
+  color: $white-color;
+  font-style: normal;
+  margin-top: 0;
+  margin-bottom: 9px;
+}
+
+.footer-contacts {
+  display: block;
+  color: $accent-secondary-color;
+  font-style: normal;
+  text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer-contacts.mail {
+  margin-bottom: 9px;
+  margin-top: 0;
+}
+
+.footer-title {
+  display: block;
+  color: $white-color;
+  margin-bottom: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: start;
+  margin-left: 0;
+}
+
+.footer-info,
+.footer-join-us {
+  box-sizing: border-box;
+  width: 231px;
+}
+
+.footer-info {
+  margin-right: 69px;
+}
+
+.footer-social {
+  display: flex;
+  height: 44px;
+  width: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social:hover,
+.footer-social:focus {
+  background-color: $accent-color;
+  outline: none;
+}
+
+.footer-sign-up {
+  margin-left: auto;
+}
+
+.submit-button {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  margin: 0;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  outline: none;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.submit-icon {
+  margin-left: 10px;
+  fill: $white-color;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.submit-button:hover .submit-icon,
+.submit-button:focus .submit-icon {
+  fill: $accent-color;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-mail {
+  box-sizing: border-box;
+  margin-right: 12px;
+  width: 358px;
+  height: 50px;
+  padding: 15px;
+
+  font-size: 16px;
+  line-height: 1.25;
+  color: $accent-secondary-color;
+  align-items: center;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background-color: inherit;
+  outline: none;
+}
