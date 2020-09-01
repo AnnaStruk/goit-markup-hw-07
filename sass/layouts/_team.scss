@@ -4,7 +4,7 @@
   flex-wrap: wrap;
 }
 
-.team .title {
+.team-name {
   margin-top: 30px;
   margin-bottom: 10px;
   color: $title-text-color;
@@ -13,7 +13,6 @@
   line-height: 1.19;
   text-align: center;
 }
-
 .team-bg {
   background-color: $secondary-bg-color;
 }
@@ -33,7 +32,7 @@
   }
 }
 
-.profession {
+.team-position {
   margin-top: 0;
   margin-bottom: 16px;
   font-weight: 400;

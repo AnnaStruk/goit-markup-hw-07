@@ -15,10 +15,10 @@
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-}
 
-.backdrop.is-hidden .modal {
-  transform: scale(0.9) translate(-50%, -50%);
+  .modal {
+    transform: scale(0.9) translate(-50%, -50%);
+  }
 }
 
 .modal {
@@ -87,6 +87,19 @@
   &:first-child {
     margin-top: 12px;
   }
+
+  &:focus-within svg {
+    fill: $accent-color;
+  }
+
+  &:hover .modal-icon {
+    fill: $accent-color;
+  }
+
+  &:hover .form-input,
+  &:hover .form-textarea {
+    border: 1px solid $accent-color;
+  }
 }
 
 .form-input {
@@ -135,23 +148,10 @@ textarea {
   resize: none;
 }
 
-.form-field:hover .form-input,
-.form-field:hover .form-textarea {
-  border: 1px solid $accent-color;
-}
-
 input:focus,
 textarea:focus {
   border: 1px solid $accent-color;
   outline: 0;
-}
-
-.form-field:focus-within svg {
-  fill: $accent-color;
-}
-
-.form-field:hover .modal-icon {
-  fill: $accent-color;
 }
 
 .btn-submit-modal {
