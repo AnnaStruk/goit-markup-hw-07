@@ -275,7 +275,6 @@ img {
 }
 
 .site-nav .link:hover, .site-nav .link:focus {
-  outline: 0;
   color: #2196f3;
 }
 
@@ -311,7 +310,6 @@ img {
 }
 
 .contacts .link:hover, .contacts .link:focus {
-  outline: 0;
   color: #2196f3;
   fill: #2196f3;
 }

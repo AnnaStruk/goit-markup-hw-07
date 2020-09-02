@@ -23,7 +23,6 @@
 
   &:hover,
   &:focus {
-    outline: 0;
     color: $accent-color;
   }
 }
@@ -60,7 +59,6 @@
 
   &:hover,
   &:focus {
-    outline: 0;
     color: $accent-color;
     fill: $accent-color;
   }
