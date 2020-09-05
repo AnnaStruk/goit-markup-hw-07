@@ -8,12 +8,12 @@
 .footer {
   display: flex;
   align-items: baseline;
-}
 
-.footer-title {
-  display: block;
-  color: $white-color;
-  margin-bottom: 20px;
+  &-title {
+    display: block;
+    color: $white-color;
+    margin-bottom: 20px;
+  }
 }
 
 .footer-info,

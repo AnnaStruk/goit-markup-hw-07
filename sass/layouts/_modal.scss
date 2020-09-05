@@ -216,10 +216,10 @@ textarea:focus {
   padding: 0;
   display: flex;
   justify-content: center;
-}
 
-.policy-text {
-  text-decoration: underline;
-  color: $accent-color;
-  cursor: pointer;
+  &-text {
+    text-decoration: underline;
+    color: $accent-color;
+    cursor: pointer;
+  }
 }

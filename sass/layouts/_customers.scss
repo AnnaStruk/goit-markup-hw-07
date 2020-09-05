@@ -2,10 +2,10 @@
 .customers {
   display: flex;
   justify-content: center;
-}
 
-.customers-item:not(:last-child) {
-  margin-right: 30px;
+  &-item:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .customers-link {

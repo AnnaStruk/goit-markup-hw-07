@@ -407,7 +407,7 @@ img {
 .features-item {
   margin-top: 30px;
   margin-bottom: 10px;
-  color: var(--title-text-color);
+  color: #212121;
 }
 
 .features-list {
@@ -510,11 +510,11 @@ img {
 .team-name {
   margin-top: 30px;
   margin-bottom: 10px;
-  color: #212121;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  color: #212121;
 }
 
 .team-bg {
