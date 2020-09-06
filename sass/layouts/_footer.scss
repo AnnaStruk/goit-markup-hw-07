@@ -41,9 +41,7 @@
   padding-left: 40px;
   outline: none;
 
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill $time-anim, background-color $time-anim, color $time-anim;
 
   &:hover .submit-icon,
   &:focus .submit-icon {
@@ -54,7 +52,7 @@
 .submit-icon {
   margin-left: 10px;
   fill: $white-color;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill $time-anim;
 }
 
 .footer-form {

@@ -1,17 +1,19 @@
 .footer-address p {
-  color: $white-color;
-  font-style: normal;
   margin-top: 0;
   margin-bottom: 9px;
+
+  font-style: normal;
+  color: $white-color;
 }
 
 .footer-contacts {
   display: block;
-  color: $accent-secondary-color;
-  font-style: normal;
-  text-decoration: none;
   margin-top: 0;
   margin-bottom: 0;
+
+  font-style: normal;
+  text-decoration: none;
+  color: $accent-secondary-color;
 }
 
 .footer-contacts.mail {

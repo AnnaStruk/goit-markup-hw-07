@@ -9,19 +9,16 @@
 }
 
 .customers-link {
-  display: flex;
+  @include flex-direct;
   cursor: pointer;
   width: 170px;
   height: 90px;
 
-  justify-content: center;
-  align-items: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: #afb1b8;
 
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill $time-anim, border-color $time-anim;
 
   &:hover,
   &:focus {
