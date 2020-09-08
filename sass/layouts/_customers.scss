@@ -1,7 +1,6 @@
 /* Customers*/
 .customers {
-  display: flex;
-  justify-content: center;
+  @include flex-direct;
 }
 
 .customers-item:not(:last-child) {

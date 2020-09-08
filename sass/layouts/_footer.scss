@@ -1,8 +1,7 @@
 /* Footer*/
 .page-footer {
+  padding: 60px 0px;
   background-color: $footer-bg-color;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .footer {
@@ -12,8 +11,8 @@
 
 .footer-title {
   display: block;
-  color: $white-color;
   margin-bottom: 20px;
+  color: $white-color;
 }
 
 .footer-info,
@@ -32,9 +31,9 @@
 
 .submit-button {
   display: flex;
-  height: 50px;
-  align-items: center;
   margin: 0;
+  align-items: center;
+  height: 50px;
 
   padding-top: 10px;
   padding-bottom: 10px;
